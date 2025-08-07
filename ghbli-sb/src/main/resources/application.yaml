@@ -1,0 +1,19 @@
+server:
+  port: 3510
+  servlet:
+    context-path: /api
+
+stability:
+  api:
+    base-url: https://api.stability.ai
+    key: your-key
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+  application:
+    name: GHBIL-SERVICE
+
